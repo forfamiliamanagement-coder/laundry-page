@@ -33,3 +33,7 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+/* .container-custom {
+  apply max-w-7xl mx-auto px-4;
+} */
