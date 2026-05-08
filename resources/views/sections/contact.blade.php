@@ -9,7 +9,7 @@
             Punya pertanyaan? Tim kami siap membantu kamu kapan saja
         </p>
 
-        <a href="https://wa.me/6285383544075?text=Hallo%20ka%20saya%20mau%20bertanya%20soal%20laundry"
+        <a href="https://wa.me/628979629997?text=Hallo%20ka%20saya%20mau%20bertanya%20soal%20laundry"
            class="inline-block bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-xl font-semibold shadow hover:shadow-lg transition">
             Chat WhatsApp
         </a>

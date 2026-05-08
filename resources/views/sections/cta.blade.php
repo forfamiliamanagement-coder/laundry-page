@@ -1,4 +1,4 @@
-<section class="py-20 md:py-28 bg-orange-500 text-white text-center px-4">
+<section class="py-20 md:py-28 bg-green-500 text-white text-center px-4">
     <div class="max-w-3xl mx-auto">
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight">

@@ -34,6 +34,29 @@ window.addEventListener("scroll", function () {
         text.classList.add("text-white");
     }
 });
+    const reveals = document.querySelectorAll('.reveal');
+    const line = document.querySelector('.line-animate');
+
+    function revealOnScroll() {
+        reveals.forEach(el => {
+            const windowHeight = window.innerHeight;
+            const elementTop = el.getBoundingClientRect().top;
+
+            if (elementTop < windowHeight - 100) {
+                el.classList.add('active');
+            }
+        });
+
+        if (line) {
+            const lineTop = line.getBoundingClientRect().top;
+            if (lineTop < window.innerHeight - 100) {
+                line.classList.add('active');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', revealOnScroll);
+
 </script>
     </head>
     <body class="bg-gray-100 text-gray-800">
