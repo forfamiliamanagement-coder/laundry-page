@@ -8,6 +8,6 @@
 @include('sections.trust')
 @include('sections.pricing')
 @include('sections.cta')
-@include('sections.contact')
+
 
 @endsection

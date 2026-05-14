@@ -1,41 +1,58 @@
-<section class="relative h-screen flex items-center justify-center text-white overflow-hidden py-16 md:py-24 px-4">
-<div class="container-custom">
-        {{-- Background --}}
+<section class="relative min-h-screen flex items-center justify-center text-white overflow-hidden px-4">
+
+    <!-- BACKGROUND -->
     <div class="absolute inset-0">
         <img src="{{ Vite::asset('public/images/laundry-hero.png') }}"
+             alt="Laundry service background"
              class="w-full h-full object-cover scale-105 animate-[zoom_20s_linear_infinite]">
-        <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40"></div>
+
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
     </div>
 
-    {{-- Content --}}
-    <div class="relative z-10 text-center max-w-2xl px-6 animate-fadeUp">
+    <!-- CONTENT -->
+    <div class="relative z-10 text-center max-w-3xl animate-fadeUp">
+
+        <!-- SEO HEADING -->
         <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-4">
-            Dry Cleaning & Laundry To Your Door
+            Laundry Antar Jemput & Dry Cleaning Terbaik
         </h1>
 
-        <p class="mb-6 text-gray-200">
-            Let us take the load off your hands
+        <!-- SUBTEXT -->
+        <p class="mb-8 text-gray-200 text-lg">
+            Layanan laundry cepat, bersih, dan siap kirim ke rumah Anda
         </p>
 
-        {{-- Search Box --}}
-        <div class="bg-white rounded-xl flex flex-col md:flex-row overflow-hidden shadow-2xl w-full">
-            <select class="px-4 py-3 text-gray-700 outline-none">
-                <option>Select City</option>
-            </select>
+            <!-- SEARCH FORM -->
+    {{-- 
+            <form action="https://www.google.com/maps/search/" method="GET" target="_blank"
+                class="bg-white rounded-xl flex flex-col md:flex-row overflow-hidden shadow-2xl w-full">
 
-            <input type="text"
-                placeholder="Type area"
-                class="flex-1 px-4 py-3 outline-none text-gray-700">
+                <!-- CITY -->
+                <select name="query" class="px-4 py-3 text-gray-700 outline-none border-r">
+                    <option value="">Pilih Kota</option>
+                    <option value="Jakarta laundry">Jakarta</option>
+                    <option value="Bandung laundry">Bandung</option>
+                    <option value="Surabaya laundry">Surabaya</option>
+                </select>
 
-            <button class="bg-orange-500 px-6 text-white font-semibold hover:bg-orange-600 transition">
-                Select Location
-            </button>
-        </div>
+                <!-- AREA -->
+                <input type="text"
+                    name="query"
+                    placeholder="Masukkan lokasi / area"
+                    class="flex-1 px-4 py-3 outline-none text-gray-700">
+
+                <!-- BUTTON -->
+                <button type="submit"
+                    class="bg-orange-500 px-6 text-white font-semibold hover:bg-orange-600 transition">
+                    Cari Lokasi
+                </button>
+
+            </form>
+    --}}
+
     </div>
-</div>
 
-
-    {{-- Wave --}}
+    <!-- WAVE -->
     <div class="absolute bottom-0 w-full">
         <svg viewBox="0 0 1440 150" class="w-full">
             <path fill="#f3f4f6"
@@ -45,3 +62,4 @@
     </div>
 
 </section>
+

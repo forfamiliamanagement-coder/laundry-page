@@ -4,7 +4,16 @@ export default {
     "./resources/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          green: '#22c55e',
+          orange: '#f97316',
+          dark: '#1f2937',
+          light: '#f9fafb'
+        }
+      }
+    },
   },
   plugins: [],
 }

@@ -1,18 +1,44 @@
-<section class="py-20 md:py-28 bg-green-500 text-white text-center px-4">
-    <div class="max-w-3xl mx-auto">
+@php
+  $phoneOrder = '6285283544075';
+  $phoneCs = '6285283544075';
 
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-            Butuh Laundry Sekarang?
-        </h2>
+  $waOrder = "https://wa.me/$phoneOrder?text=" . urlencode("Hallo ka saya mau order laundry");
+  $waChat  = "https://wa.me/$phoneCs?text=" . urlencode("Hallo ka saya mau bertanya soal laundry");
+@endphp
 
-        <p class="text-white/90 mb-8">
-            Klik tombol di bawah dan langsung order via WhatsApp
-        </p>
+<section class="section relative text-center px-4 overflow-hidden">
+  
+  <!-- BACKGROUND EFFECT -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-green-400/20 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-0 right-0 w-[400px] h-[400px] bg-orange-400/20 blur-3xl rounded-full"></div>
+  </div>
 
-        <a href="https://wa.me/6285283544075?text=Hallo%20ka%20saya%20mau%20bertanya%20soal%20laundry"
-           class="inline-block bg-white text-orange-500 px-8 py-3 rounded-xl font-semibold shadow hover:shadow-lg hover:scale-105 transition">
-            Order Sekarang
-        </a>
+  <div class="max-w-4xl mx-auto">
+
+    <h2 class="heading mb-4">
+      Butuh Laundry Sekarang?
+    </h2>
+
+    <p class="subheading mb-8">
+      Order cepat atau chat langsung via WhatsApp
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+      <!-- ORDER -->
+      <a href="{{ $waOrder }}"
+         class="btn-accent">
+        Order Sekarang
+      </a>
+
+      <!-- CHAT -->
+      <a href="{{ $waChat }}"
+         class="btn-secondary">
+        Chat WhatsApp
+      </a>
 
     </div>
+
+  </div>
 </section>
