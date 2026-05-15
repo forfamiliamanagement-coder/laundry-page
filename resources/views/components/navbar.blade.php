@@ -4,7 +4,7 @@
 
         <!-- Logo -->
         <div class="flex items-center gap-2">
-           <img src="{{ asset('images/For.svg') }}" 
+           <img src="{{ asset('images/For1.svg') }}" 
          id="logo"
          class="h-16 w-auto text-white transition duration-300">
 

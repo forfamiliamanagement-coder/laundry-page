@@ -1,6 +1,6 @@
 @php
-  $phoneOrder = '6285283544075';
-  $phoneCs = '6285283544075';
+  $phoneOrder = '6285817129957';
+  $phoneCs = '628979629997';
 
   $waOrder = "https://wa.me/$phoneOrder?text=" . urlencode("Hallo ka saya mau order laundry");
   $waChat  = "https://wa.me/$phoneCs?text=" . urlencode("Hallo ka saya mau bertanya soal laundry");

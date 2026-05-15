@@ -2,7 +2,7 @@
 
     <!-- BACKGROUND -->
     <div class="absolute inset-0">
-        <img src="{{ Vite::asset('public/images/laundry-hero.png') }}"
+        <img src="{{ Vite::asset('public/images/background1.jpg') }}"
              alt="Laundry service background"
              class="w-full h-full object-cover scale-105 animate-[zoom_20s_linear_infinite]">
 
