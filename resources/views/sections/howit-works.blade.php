@@ -2,7 +2,7 @@
 
     <!-- SEO HEADING -->
     <h2 class="text-3xl font-bold mb-2 reveal">
-        Cara Kerja Laundry Antar Jemput
+        GRATIS ANTAR JEMPUT 24 JAM
     </h2>
 
     <p class="text-gray-500 mb-16 max-w-2xl mx-auto reveal delay-1">

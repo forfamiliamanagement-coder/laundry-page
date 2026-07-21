@@ -2,7 +2,7 @@
 
     <!-- BACKGROUND -->
     <div class="absolute inset-0">
-        <img src="{{ Vite::asset('public/images/background1.jpg') }}"
+        <img src="{{ Vite::asset('public/images/backup3.jpg') }}"
              alt="Laundry service background"
              class="w-full h-full object-cover scale-105 animate-[zoom_20s_linear_infinite]">
 
@@ -51,7 +51,19 @@
     --}}
 
     </div>
+          <!-- LEFT -->
+        {{-- <div class="absolute bottom-16 md:bottom-20 left-8 md:left-16 z-10 hidden md:block">
+            <img src="{{ Vite::asset('public/images/gratis1.svg') }}"
+                alt="Laundry logo"
+                class="w-36 md:w-56 opacity-80 hover:opacity-90 transition duration-300">
+        </div> --}}
 
+        <!-- RIGHT -->
+        {{-- <div class="absolute bottom-16 md:bottom-20 right-8 md:right-16 z-10 hidden md:block">
+            <img src="{{ Vite::asset('public/images/gratis2.svg') }}"
+                alt="Laundry logo"
+               class="w-36 md:w-56 opacity-80 hover:opacity-90 transition duration-300">
+        </div> --}}
     <!-- WAVE -->
     <div class="absolute bottom-0 w-full">
         <svg viewBox="0 0 1440 150" class="w-full">

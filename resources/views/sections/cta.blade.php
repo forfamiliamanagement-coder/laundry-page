@@ -2,8 +2,8 @@
   $phoneOrder = '6285817129957';
   $phoneCs = '628979629997';
 
-  $waOrder = "https://wa.me/$phoneOrder?text=" . urlencode("Hallo ka saya mau order laundry");
-  $waChat  = "https://wa.me/$phoneCs?text=" . urlencode("Hallo ka saya mau bertanya soal laundry");
+  $waOrder = "https://wa.me/$phoneOrder?text=" . urlencode("Hallo for laundry, saya mau order laundry");
+  $waChat  = "https://wa.me/$phoneCs?text=" . urlencode("Hallo for laundry, saya mau bertanya soal laundry");
 @endphp
 
 <section class="section relative text-center px-4 overflow-hidden">
@@ -35,7 +35,7 @@
       <!-- CHAT -->
       <a href="{{ $waChat }}"
          class="btn-secondary">
-        Chat WhatsApp
+        Customer care
       </a>
 
     </div>
