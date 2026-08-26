@@ -5,6 +5,7 @@
 @include('sections.hero')
 @include('sections.howit-works')
 @include('sections.service')
+@include('sections.pricing')
 @include('sections.trust')
 @include('sections.cta')
 

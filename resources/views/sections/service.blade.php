@@ -1,80 +1,452 @@
-<section id="layanan" class="py-20 md:py-24 bg-white text-center px-4">
+<section id="layanan" class="relative bg-white py-20 md:py-28 px-4 overflow-hidden">
 
-    <div class="container-custom">
+    <div class="container-custom max-w-7xl mx-auto">
 
-        <!-- SEO TITLE -->
-        <h2 class="text-3xl font-bold mb-4 reveal">
-            Layanan Laundry Profesional
-        </h2>
+        <!-- SECTION HEADER -->
+        <div class="max-w-3xl mx-auto text-center mb-14 md:mb-16">
 
-        <p class="text-gray-500 mb-12 max-w-2xl mx-auto reveal delay-1">
-            Kami menyediakan berbagai layanan laundry seperti cuci pakaian, setrika, 
-            dan dry clean dengan kualitas terbaik, cepat, dan terpercaya.
-        </p>
+            <!-- Eyebrow -->
+            <div class="inline-flex items-center gap-2
+                        px-3.5 py-1.5
+                        rounded-full
+                        bg-orange-50
+                        border border-orange-100
+                        text-orange-600
+                        text-xs font-semibold
+                        uppercase tracking-wider
+                        mb-5 reveal">
 
-        <!-- Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
 
-            <!-- Card 1 -->
-            <article class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition duration-300 reveal">
-                
-                <div class="text-5xl mb-4">
-                    <img src="{{ asset('images/icon/sparkles.svg') }}" class="w-12 h-12 mx-auto" alt="Layanan cuci pakaian">
+                Layanan Kami
+
+            </div>
+
+
+            <!-- Heading -->
+            <h2 class="text-3xl sm:text-4xl md:text-5xl
+                       font-bold
+                       leading-tight
+                       tracking-tight
+                       text-slate-900
+                       mb-5
+                       reveal">
+
+                Laundry lebih praktis,
+                <span class="text-orange-500">
+                    tanpa ribet.
+                </span>
+
+            </h2>
+
+
+            <!-- Description -->
+            <p class="max-w-2xl mx-auto
+                      text-base md:text-lg
+                      leading-relaxed
+                      text-slate-500
+                      reveal delay-1">
+
+                Mulai dari pakaian sehari-hari hingga pakaian yang membutuhkan
+                perawatan khusus. Kami membantu proses laundry Anda sampai
+                kembali siap digunakan.
+
+            </p>
+
+        </div>
+
+
+        <!-- SERVICE GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-7">
+
+
+            <!-- CARD 1 -->
+            <article
+                class="group relative
+                       bg-white
+                       border border-slate-200
+                       rounded-2xl
+                       p-7 md:p-8
+
+                       transition-all duration-300
+                       hover:-translate-y-1
+                       hover:border-orange-200
+                       hover:shadow-xl hover:shadow-slate-200/50
+
+                       reveal"
+            >
+
+                <!-- ICON -->
+                <div
+                    class="flex items-center justify-center
+                           w-12 h-12
+                           rounded-xl
+                           bg-orange-50
+                           border border-orange-100
+                           mb-6
+
+                           transition-transform duration-300
+                           group-hover:scale-105"
+                >
+
+                    <img
+                        src="{{ asset('images/icon/sparkles.svg') }}"
+                        alt="Layanan cuci pakaian"
+                        class="w-6 h-6"
+                    >
+
                 </div>
 
-                <h3 class="font-bold text-xl mb-2">Cuci Pakaian</h3>
 
-                <p class="text-gray-500 text-sm">
-                    Layanan cuci pakaian bersih dan wangi menggunakan deterjen berkualitas tinggi.
+                <!-- CONTENT -->
+                <h3 class="text-xl font-bold text-slate-900 mb-3">
+                    Cuci Pakaian
+                </h3>
+
+                <p class="text-sm md:text-base
+                          leading-relaxed
+                          text-slate-500
+                          mb-6">
+
+                    Pakaian dicuci dengan proses yang bersih dan
+                    terawat sehingga terasa nyaman dan siap digunakan.
+
                 </p>
+
+
+                <!-- BENEFITS -->
+                <ul class="space-y-3">
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+
+                            ✓
+
+                        </span>
+
+                        Proses pencucian terawat
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+
+                            ✓
+
+                        </span>
+
+                        Bersih dan nyaman digunakan
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+
+                            ✓
+
+                        </span>
+
+                        Cocok untuk pakaian sehari-hari
+
+                    </li>
+
+                </ul>
 
             </article>
 
-            <!-- Card 2 -->
-            <article class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition duration-300 reveal delay-1">
-                
-                <div class="text-5xl mb-4">
-                    <img src="{{ asset('images/icon/steam-iron.svg') }}" class="w-12 h-12 mx-auto" alt="Layanan setrika pakaian">
+
+
+            <!-- CARD 2 -->
+            <article
+                class="group relative
+                       bg-white
+                       border border-orange-200
+                       rounded-2xl
+                       p-7 md:p-8
+
+                       shadow-lg shadow-orange-100/40
+
+                       transition-all duration-300
+                       hover:-translate-y-1
+                       hover:shadow-xl
+
+                       reveal delay-1"
+            >
+
+                <!-- BADGE -->
+                <div
+                    class="absolute top-5 right-5
+                           px-2.5 py-1
+                           rounded-full
+                           bg-orange-50
+                           text-orange-600
+                           text-[11px]
+                           font-semibold"
+                >
+                    Populer
                 </div>
 
-                <h3 class="font-bold text-xl mb-2">Setrika Pakaian</h3>
 
-                <p class="text-gray-500 text-sm">
-                    Pakaian disetrika rapi, licin, dan siap digunakan setiap hari.
+                <!-- ICON -->
+                <div
+                    class="flex items-center justify-center
+                           w-12 h-12
+                           rounded-xl
+                           bg-orange-50
+                           border border-orange-100
+                           mb-6
+
+                           transition-transform duration-300
+                           group-hover:scale-105"
+                >
+
+                    <img
+                        src="{{ asset('images/icon/steam-iron.svg') }}"
+                        alt="Layanan setrika pakaian"
+                        class="w-6 h-6"
+                    >
+
+                </div>
+
+
+                <!-- CONTENT -->
+                <h3 class="text-xl font-bold text-slate-900 mb-3">
+                    Setrika Pakaian
+                </h3>
+
+                <p class="text-sm md:text-base
+                          leading-relaxed
+                          text-slate-500
+                          mb-6">
+
+                    Pakaian dirapikan dengan proses setrika agar
+                    terlihat lebih rapi dan nyaman digunakan.
+
                 </p>
+
+
+                <!-- BENEFITS -->
+                <ul class="space-y-3">
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Rapi dan siap digunakan
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Cocok untuk pakaian harian
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Praktis tanpa repot menyetrika
+
+                    </li>
+
+                </ul>
 
             </article>
 
-            <!-- Card 3 -->
-            <article class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition duration-300 reveal delay-2">
-                
-                <div class="text-5xl mb-4">
-                    <img src="{{ asset('images/icon/benefit.svg') }}" class="w-12 h-12 mx-auto" alt="Layanan dry clean">
+
+
+            <!-- CARD 3 -->
+            <article
+                class="group relative
+                       bg-white
+                       border border-slate-200
+                       rounded-2xl
+                       p-7 md:p-8
+
+                       transition-all duration-300
+                       hover:-translate-y-1
+                       hover:border-orange-200
+                       hover:shadow-xl hover:shadow-slate-200/50
+
+                       reveal delay-2"
+            >
+
+                <!-- ICON -->
+                <div
+                    class="flex items-center justify-center
+                           w-12 h-12
+                           rounded-xl
+                           bg-orange-50
+                           border border-orange-100
+                           mb-6
+
+                           transition-transform duration-300
+                           group-hover:scale-105"
+                >
+
+                    <img
+                        src="{{ asset('images/icon/benefit.svg') }}"
+                        alt="Layanan dry clean"
+                        class="w-6 h-6"
+                    >
+
                 </div>
 
-                <h3 class="font-bold text-xl mb-2">Dry Clean</h3>
 
-                <p class="text-gray-500 text-sm">
-                    Perawatan khusus untuk pakaian premium agar tetap bersih dan awet.
+                <!-- CONTENT -->
+                <h3 class="text-xl font-bold text-slate-900 mb-3">
+                    Dry Clean
+                </h3>
+
+                <p class="text-sm md:text-base
+                          leading-relaxed
+                          text-slate-500
+                          mb-6">
+
+                    Perawatan khusus untuk pakaian tertentu
+                    yang membutuhkan penanganan lebih hati-hati.
+
                 </p>
 
+
+                <!-- BENEFITS -->
+                <ul class="space-y-3">
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Untuk pakaian tertentu
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Penanganan lebih khusus
+
+                    </li>
+
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+
+                        <span class="flex items-center justify-center
+                                     w-5 h-5
+                                     rounded-full
+                                     bg-green-50
+                                     text-green-600
+                                     shrink-0">
+                            ✓
+                        </span>
+
+                        Cocok untuk kebutuhan khusus
+
+                    </li>
+
+                </ul>
+
             </article>
+
+        </div>
+
+
+        <!-- SECTION CTA -->
+        <div class="text-center mt-12 md:mt-14 reveal delay-2">
+
+            <p class="text-sm text-slate-500 mb-4">
+                Bingung menentukan layanan yang sesuai?
+            </p>
+
+            <a
+                href="https://wa.me/6285817129957?text=Hallo%20ka%20saya%20mau%20konsultasi%20soal%20laundry"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                class="inline-flex items-center justify-center
+                       gap-2
+
+                       px-6 py-3.5
+                       rounded-xl
+
+                       bg-orange-500
+                       hover:bg-orange-600
+
+                       text-white
+                       text-sm
+                       font-semibold
+
+                       shadow-lg shadow-orange-500/20
+
+                       transition-all duration-300
+                       hover:-translate-y-0.5"
+            >
+
+                Konsultasi via WhatsApp
+
+                <span aria-hidden="true">
+                    →
+                </span>
+
+            </a>
 
         </div>
 
     </div>
 
 </section>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Laundry Service",
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Laundry Anda"
-  },
-  "areaServed": "Indonesia"
-}
-</script>

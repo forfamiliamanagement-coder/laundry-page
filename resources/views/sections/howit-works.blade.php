@@ -1,151 +1,429 @@
-<section class="py-24 bg-gray-100 text-center">
+<section
+    id="cara-kerja"
+    class="relative overflow-hidden bg-white py-24 md:py-28"
+>
 
-    <!-- SEO HEADING -->
-    <h2 class="text-3xl font-bold mb-2 reveal">
-        GRATIS ANTAR JEMPUT 24 JAM
-    </h2>
+    <div class="max-w-7xl mx-auto px-6">
 
-    <p class="text-gray-500 mb-16 max-w-2xl mx-auto reveal delay-1">
-        Layanan laundry profesional dengan sistem antar jemput yang cepat, 
-        praktis, dan terpercaya langsung dari rumah Anda.
-    </p>
+        <!-- SECTION HEADER -->
+        <div class="max-w-3xl mx-auto text-center mb-16 md:mb-20 reveal">
 
-    <div class="max-w-6xl mx-auto px-6">
+            <!-- EYEBROW -->
+            <div
+                class="inline-flex items-center gap-2
+                       px-4 py-2
+                       rounded-full
+                       bg-orange-50
+                       border border-orange-100
+                       text-orange-600
+                       text-sm font-semibold"
+            >
+                <span class="w-2 h-2 rounded-full bg-orange-500"></span>
 
-        <!-- DESKTOP TIMELINE -->
-        <ol class="hidden md:block relative">
+                CARA KERJA
+            </div>
 
-            <!-- LINE -->
-            <div class="absolute top-1/2 left-0 w-full h-1 bg-orange-200 line-animate"></div>
+            <!-- HEADING -->
+            <h2
+                class="mt-5
+                       text-3xl sm:text-4xl md:text-5xl
+                       font-bold
+                       tracking-tight
+                       text-slate-900
+                       leading-tight"
+            >
+                Laundry beres,
+                <span class="text-orange-500">
+                    tanpa ribet.
+                </span>
+            </h2>
 
-            <div class="grid grid-cols-4 relative z-10">
+            <!-- DESCRIPTION -->
+            <p
+                class="mt-5
+                       text-base md:text-lg
+                       leading-8
+                       text-slate-500
+                       max-w-2xl mx-auto"
+            >
+                Cukup pesan dari rumah. Kami jemput laundry Anda,
+                proses dengan standar profesional, lalu antar kembali
+                dalam kondisi bersih dan siap digunakan.
+            </p>
 
-                <!-- STEP 1 -->
-                <li class="text-center reveal delay-1">
-                    <div class="w-16 h-16 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
-                          <img 
-                                src="{{ asset('images/icon/phone-call.svg') }}" 
-                                class="w-7 h-7 transition duration-300 group-hover:scale-110"
+        </div>
+
+
+        <!-- PROCESS -->                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        <div class="relative">
+
+        
+
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-5">
+
+                <!-- STEP 01 -->
+                <article
+                    class="relative group
+                           bg-white
+                           border border-slate-200
+                           rounded-2xl
+                           p-7
+                           transition-all duration-300
+                           hover:-translate-y-1
+                           hover:border-orange-200
+                           hover:shadow-xl hover:shadow-slate-200/50
+                           reveal delay-1"
+                >
+
+                    <!-- NUMBER / ICON -->
+                    <div class="relative z-10 flex items-center justify-between">
+
+                        <div
+                                        class="w-[76px] h-[76px]
+                                            flex items-center justify-center
+                                            rounded-2xl
+                                            bg-orange-50
+                                            border border-orange-100
+                                            transition-all duration-300
+                                            group-hover:bg-orange-100
+                                            group-hover:scale-105"
+
+                        >
+                            <img
+                                src="{{ asset('images/icon/phone-call.svg') }}"
+                                alt="Pesan laundry melalui WhatsApp"
+                                class="w-8 h-8"
                             >
-                    </div>
-                    <h3 class="mt-4 font-semibold">Pesan Laundry</h3>
-                    <p class="text-sm text-gray-500">
-                        Hubungi kami via WhatsApp untuk menjadwalkan penjemputan.
-                    </p>
-                </li>
+                        </div>
 
-                <!-- STEP 2 -->
-                <li class="text-center reveal delay-2">
-                    <div class="w-16 h-16 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
-                         <img 
-                                src="{{ asset('images/icon/truck-pickup.svg') }}" 
-                                class="w-7 h-7 transition duration-300 group-hover:scale-110"
-                            >
-                    </div>
-                    <h3 class="mt-4 font-semibold">Penjemputan</h3>
-                    <p class="text-sm text-gray-500">
-                        Tim kami datang ke lokasi Anda untuk mengambil pakaian.
-                    </p>
-                </li>
+                        <span
+                            class="text-4xl font-bold
+                                   text-slate-100
+                                   leading-none"
+                        >
+                            01
+                        </span>
 
-                <!-- STEP 3 -->
-                <li class="text-center reveal delay-3">
-                    <div class="w-16 h-16 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
-                         <img 
-                                src="{{ asset('images/icon/sparkles.svg') }}" 
-                                class="w-7 h-7 transition duration-300 group-hover:scale-110"
-                            >
                     </div>
-                    <h3 class="mt-4 font-semibold">Proses Pencucian</h3>
-                    <p class="text-sm text-gray-500">
-                        Pakaian dicuci dengan standar kebersihan terbaik.
-                    </p>
-                </li>
 
-                <!-- STEP 4 -->
-                <li class="text-center reveal delay-4">
-                    <div class="w-16 h-16 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition">
-                         <img 
-                                src="{{ asset('images/icon/truck-pickup.svg') }}" 
-                                class="w-7 h-7 transition duration-300 group-hover:scale-110"
-                            >
+
+                    <!-- CONTENT -->
+                    <div class="mt-7">
+
+                        <h3
+                            class="text-xl font-bold
+                                   text-slate-900"
+                        >
+                            Pesan Laundry
+                        </h3>
+
+                        <p
+                            class="mt-3
+                                   text-sm md:text-base
+                                   leading-7
+                                   text-slate-500"
+                        >
+                            Hubungi kami melalui WhatsApp dan
+                            tentukan waktu penjemputan yang Anda inginkan.
+                        </p>
+
                     </div>
-                    <h3 class="mt-4 font-semibold">Pengantaran</h3>
-                    <p class="text-sm text-gray-500">
-                        Laundry bersih dikirim kembali ke rumah Anda.
-                    </p>
-                </li>
+
+                </article>
+
+
+                <!-- STEP 02 -->
+                <article
+                    class="relative group
+                           bg-white
+                           border border-slate-200
+                           rounded-2xl
+                           p-7
+                           transition-all duration-300
+                           hover:-translate-y-1
+                           hover:border-orange-200
+                           hover:shadow-xl hover:shadow-slate-200/50
+                           reveal delay-2"
+                >
+
+                    <div class="relative z-10 flex items-center justify-between">
+
+                        <div
+                              class="w-[76px] h-[76px]
+                                            flex items-center justify-center
+                                            rounded-2xl
+                                            bg-orange-50
+                                            border border-orange-100
+                                            transition-all duration-300
+                                            group-hover:bg-orange-100
+                                            group-hover:scale-105"
+                        >
+                            <img
+                                src="{{ asset('images/icon/truck-pickup.svg') }}"
+                                alt="Penjemputan laundry"
+                                class="w-8 h-8"
+                            >
+                        </div>
+
+                        <span
+                            class="text-4xl font-bold
+                                   text-slate-100
+                                   leading-none"
+                        >
+                            02
+                        </span>
+
+                    </div>
+
+
+                    <div class="mt-7">
+
+                        <h3
+                            class="text-xl font-bold
+                                   text-slate-900"
+                        >
+                            Kami Jemput
+                        </h3>
+
+                        <p
+                            class="mt-3
+                                   text-sm md:text-base
+                                   leading-7
+                                   text-slate-500"
+                        >
+                            Tim kami datang ke lokasi Anda
+                            sesuai jadwal untuk mengambil laundry.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 03 -->
+                <article
+                    class="relative group
+                           bg-white
+                           border border-slate-200
+                           rounded-2xl
+                           p-7
+                           transition-all duration-300
+                           hover:-translate-y-1
+                           hover:border-orange-200
+                           hover:shadow-xl hover:shadow-slate-200/50
+                           reveal delay-3"
+                >
+
+                    <div class="relative z-10 flex items-center justify-between">
+
+                        <div
+                             class="w-[76px] h-[76px]
+                                            flex items-center justify-center
+                                            rounded-2xl
+                                            bg-orange-50
+                                            border border-orange-100
+                                            transition-all duration-300
+                                            group-hover:bg-orange-100
+                                            group-hover:scale-105"
+                        >
+                            <img
+                                src="{{ asset('images/icon/sparkles.svg') }}"
+                                alt="Proses laundry profesional"
+                                class="w-8 h-8"
+                            >
+                        </div>
+
+                        <span
+                            class="text-4xl font-bold
+                                   text-slate-100
+                                   leading-none"
+                        >
+                            03
+                        </span>
+
+                    </div>
+
+
+                    <div class="mt-7">
+
+                        <h3
+                            class="text-xl font-bold
+                                   text-slate-900"
+                        >
+                            Kami Proses
+                        </h3>
+
+                        <p
+                            class="mt-3
+                                   text-sm md:text-base
+                                   leading-7
+                                   text-slate-500"
+                        >
+                            Laundry diproses dengan standar
+                            kebersihan dan perawatan yang sesuai.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 04 -->
+                <article
+                    class="relative group
+                           bg-white
+                           border border-slate-200
+                           rounded-2xl
+                           p-7
+                           transition-all duration-300
+                           hover:-translate-y-1
+                           hover:border-orange-200
+                           hover:shadow-xl hover:shadow-slate-200/50
+                           reveal delay-4"
+                >
+
+                    <div class="relative z-10 flex items-center justify-between">
+
+                        <div
+                              class="w-[76px] h-[76px]
+                                            flex items-center justify-center
+                                            rounded-2xl
+                                            bg-orange-50
+                                            border border-orange-100
+                                            transition-all duration-300
+                                            group-hover:bg-orange-100
+                                            group-hover:scale-105"
+                        >
+                            <img
+                                src="{{ asset('images/icon/truck-pickup.svg') }}"
+                                alt="Pengantaran laundry"
+                                class="w-8 h-8"
+                            >
+                        </div>
+
+                        <span
+                            class="text-4xl font-bold
+                                   text-slate-100
+                                   leading-none"
+                        >
+                            04
+                        </span>
+
+                    </div>
+
+
+                    <div class="mt-7">
+
+                        <h3
+                            class="text-xl font-bold
+                                   text-slate-900"
+                        >
+                            Kami Antar
+                        </h3>
+
+                        <p
+                            class="mt-3
+                                   text-sm md:text-base
+                                   leading-7
+                                   text-slate-500"
+                        >
+                            Laundry yang sudah selesai diproses
+                            kami antar kembali ke lokasi Anda.
+                        </p>
+
+                    </div>
+
+                </article>
 
             </div>
-        </ol>
 
-        <!-- MOBILE VERSION (TETEP ADA ANIMATION) -->
-        <ol class="md:hidden space-y-6">
+        </div>
 
-            <li class="flex items-center gap-4 bg-white p-4 rounded-xl shadow reveal">
-                <div class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                <div class="text-left">
-                    <h3 class="font-semibold">Pesan Laundry</h3>
-                    <p class="text-sm text-gray-500">Order via WhatsApp dengan mudah</p>
-                </div>
-            </li>
 
-            <li class="flex items-center gap-4 bg-white p-4 rounded-xl shadow reveal delay-1">
-                <div class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                <div class="text-left">
-                    <h3 class="font-semibold">Penjemputan</h3>
-                    <p class="text-sm text-gray-500">Kami ambil laundry ke lokasi Anda</p>
-                </div>
-            </li>
+        <!-- TRUST / CTA -->
+        <div
+            class="mt-14 md:mt-16
+                   flex flex-col md:flex-row
+                   items-center justify-center
+                   gap-5
+                   text-center
+                   reveal"
+        >
 
-            <li class="flex items-center gap-4 bg-white p-4 rounded-xl shadow reveal delay-2">
-                <div class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                <div class="text-left">
-                    <h3 class="font-semibold">Pencucian</h3>
-                    <p class="text-sm text-gray-500">Diproses dengan standar profesional</p>
-                </div>
-            </li>
+            <div>
 
-            <li class="flex items-center gap-4 bg-white p-4 rounded-xl shadow reveal delay-3">
-                <div class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                <div class="text-left">
-                    <h3 class="font-semibold">Pengantaran</h3>
-                    <p class="text-sm text-gray-500">Laundry dikirim kembali ke rumah</p>
-                </div>
-            </li>
+                <p
+                    class="text-sm font-medium
+                           text-slate-500"
+                >
+                    Tidak perlu datang ke outlet.
+                </p>
 
-        </ol>
+                <p
+                    class="mt-1
+                           text-base font-semibold
+                           text-slate-900"
+                >
+                    Cukup pesan, kami yang urus laundry Anda.
+                </p>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/6285817129957?text=Hallo%20ka%20saya%20mau%20order%20laundry"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center
+                       px-6 py-3
+                       rounded-xl
+                       bg-orange-500
+                       hover:bg-orange-600
+                       text-white
+                       font-semibold
+                       text-sm
+                       shadow-lg shadow-orange-500/20
+                       transition-all duration-300
+                       hover:-translate-y-0.5"
+            >
+                Pesan Laundry via WhatsApp
+                <span class="ml-2">→</span>
+            </a>
+
+        </div>
 
     </div>
 
 </section>
 
+
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "Cara Kerja Laundry Antar Jemput",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Pesan Laundry",
-      "text": "Hubungi via WhatsApp untuk menjadwalkan penjemputan"
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Penjemputan",
-      "text": "Tim mengambil pakaian dari lokasi Anda"
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Proses Pencucian",
-      "text": "Pakaian dicuci dengan standar kebersihan tinggi"
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pengantaran",
-      "text": "Laundry dikirim kembali ke rumah Anda"
-    }
-  ]
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Cara Kerja Laundry Antar Jemput",
+    "step": [
+        {
+            "@type": "HowToStep",
+            "name": "Pesan Laundry",
+            "text": "Hubungi kami melalui WhatsApp dan tentukan waktu penjemputan."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Kami Jemput",
+            "text": "Tim laundry datang ke lokasi pelanggan untuk mengambil laundry."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Kami Proses",
+            "text": "Laundry diproses dengan standar kebersihan dan perawatan yang sesuai."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Kami Antar",
+            "text": "Laundry yang sudah selesai diproses diantar kembali ke lokasi pelanggan."
+        }
+    ]
 }
 </script>
