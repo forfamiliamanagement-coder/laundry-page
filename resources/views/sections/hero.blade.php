@@ -4,7 +4,7 @@
     <div class="absolute inset-0">
 
         <img
-            src="{{ Vite::asset('public/images/backup3.jpg') }}"
+            src="{{ asset('images/backup3.jpg') }}"
             alt="Layanan laundry antar jemput"
             class="w-full h-full object-cover scale-105 animate-[zoom_20s_linear_infinite]"
         >
