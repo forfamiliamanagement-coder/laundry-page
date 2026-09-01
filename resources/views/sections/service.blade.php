@@ -414,7 +414,7 @@
             </p>
 
             <a
-                href="https://wa.me/6285817129957?text=Hallo%20ka%20saya%20mau%20konsultasi%20soal%20laundry"
+                href="https://wa.me/628211354085?text=Hallo%20ka%20saya%20mau%20konsultasi%20soal%20laundry"
                 target="_blank"
                 rel="noopener noreferrer"
 
