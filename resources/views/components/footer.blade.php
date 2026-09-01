@@ -84,7 +84,7 @@
                 </p>
 
                 <a
-                    href="{{ $waOrder ?? 'https://wa.me/6285817129957' }}"
+                    href="{{ $waOrder ?? 'https://wa.me/628211354085' }}"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="inline-flex items-center
