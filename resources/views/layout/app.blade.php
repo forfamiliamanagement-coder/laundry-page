@@ -23,26 +23,6 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NMWV8DFD');</script>
 
-    {{-- =====================================================
-         GOOGLE ANALYTICS 4
-    ====================================================== --}}
-
-   <script async
-        src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX">
-    </script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-XXXXXXX');
-    </script>
-
 
     {{-- =====================================================
          CTA TRACKING
