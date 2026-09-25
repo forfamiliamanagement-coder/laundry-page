@@ -79,7 +79,7 @@
 
             <!-- PRIMARY -->
             <a
-                href="https://wa.me/628211354085?text={{ urlencode('Hallo for laundry, saya mau bertanya paket laundry yang tersedia') }}"
+                href="https://wa.me/6285283544075?text={{ urlencode('Hallo for laundry, saya mau bertanya paket laundry yang tersedia') }}"
                 target="_blank"
                 rel="noopener noreferrer"
 

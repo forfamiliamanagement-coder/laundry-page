@@ -377,7 +377,7 @@
             </p>
 
             <a
-                href="https://wa.me/628211354085?text=Hallo%20ka%20saya%20mau%20order%20laundry"
+                href="https://wa.me/6285283544075?text=Hallo%20ka%20saya%20mau%20order%20laundry"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center justify-center

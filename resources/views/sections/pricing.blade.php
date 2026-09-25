@@ -377,7 +377,7 @@
             </p>
 
                     <a
-            href="https://wa.me/628211354085?text={{ urlencode('Hallo for laundry, saya mau konsultasi layanan laundry') }}"
+            href="https://wa.me/6285283544075?text={{ urlencode('Hallo for laundry, saya mau konsultasi layanan laundry') }}"
             target="_blank"
             rel="noopener noreferrer"
 
